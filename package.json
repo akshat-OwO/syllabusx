@@ -1,0 +1,28 @@
+{
+  "name": "syllabusx",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syllabusx/syllabusx.git"
+  },
+  "main": "index.js",
+  "type": "module",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "dev": "tsc --w",
+    "link": "bun link syllabusx"
+  },
+  "keywords": [],
+  "author": "akshat-OwO",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "axios": "^1.6.5",
+    "zod": "^3.22.4"
+  }
+}
