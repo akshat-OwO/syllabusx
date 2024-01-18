@@ -11,6 +11,9 @@ dependencies:
   axios:
     specifier: ^1.6.5
     version: 1.6.5
+  picocolors:
+    specifier: ^1.0.0
+    version: 1.0.0
 
 devDependencies:
   '@changesets/cli':
