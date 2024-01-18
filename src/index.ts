@@ -74,6 +74,7 @@ async function main() {
                 onCancel: () => {
                     exit = true;
                     p.cancel("Operation cancelled.");
+                    process.exit(0);
                 },
             }
         );
