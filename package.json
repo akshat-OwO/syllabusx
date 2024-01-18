@@ -11,18 +11,20 @@
   "bin": "./dist/index.js",
   "scripts": {
     "dev": "tsc --w",
-    "link": "bun link syllabusx"
+    "ci": "tsc",
+    "release": "pnpm run ci && changeset publish",
+    "link": "npm link syllabusx"
   },
   "keywords": [],
   "author": "akshat-OwO",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@types/node": "^20.11.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
     "@clack/prompts": "^0.7.0",
-    "axios": "^1.6.5",
-    "zod": "^3.22.4"
+    "axios": "^1.6.5"
   }
 }
