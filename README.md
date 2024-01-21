@@ -1,6 +1,8 @@
 ![image](https://github.com/akshat-OwO/syllabusx/assets/27628105/bca2c390-4a5c-46a4-bc51-9328e7f1cdae)
 
-A CLI (Command-Line-Interface) version for https://syllabusx.live/ SyllabusX.
+<p align="center">
+  A CLI (Command-Line-Interface) version for <a href="https://syllabusx.live/">SyllabusX</a> .
+</p>
 
 # Introduction
 
@@ -21,6 +23,6 @@ The package will get installed and will start to run.
 - Use the arrow keys to browse up and down the options.
 - Press CTRL+C to go back
 
-
-# [Contributing guidelines](/.github/Contributing.md)
+# Contributing Guidlines
+Head over to [Contributing guidelines](/.github/Contributing.md).
 
