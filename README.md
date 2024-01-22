@@ -1,4 +1,5 @@
-![image](https://github.com/akshat-OwO/syllabusx/assets/27628105/bca2c390-4a5c-46a4-bc51-9328e7f1cdae)
+![image](https://github.com/akshat-OwO/syllabusx/assets/27628105/3e05962d-29b2-495b-b39e-5e8a8651ebc8)
+
 
 <p align="center">
   A CLI (Command-Line-Interface) version for <a href="https://syllabusx.live/">SyllabusX</a> .
