@@ -11,7 +11,7 @@ The CLI version of SyllabusX is a small side-project that allows users to access
 
 </br>
 
-# <img src="https://i.imgur.com/B7Xdgu5.gif" style="border-radius: 12px">
+<img align="center" src="https://i.imgur.com/B7Xdgu5.gif" style="border-radius: 12px">
 
 # Installation
 
