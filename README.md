@@ -25,5 +25,7 @@ The package will get installed and will start to run.
 - Press CTRL+C to go back
 
 # Contributing Guidlines
-Head over to [Contributing guidelines](/.github/Contributing.md).
+
+Head over to [Contributing guidelines](https://github.com/akshat-OwO/syllabusx-client/blob/main/.github/Contributing.md).
+
 
