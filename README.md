@@ -10,8 +10,9 @@
 The CLI version of SyllabusX is a small side-project that allows users to access the content on their desktops/laptops without having to open their web browsers. The project is in it's initial stage and will get more convinient to use in the future. 
 
 </br>
-<img src="https://i.imgur.com/B7Xdgu5.gif" style="border-radius: 12px">
-
+<div>
+  <img src="https://i.imgur.com/B7Xdgu5.gif" style="border-radius: 12px">
+</div>
 # Installation
 
 Steps to download and install the package:
