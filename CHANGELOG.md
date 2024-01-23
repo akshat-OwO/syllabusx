@@ -1,5 +1,11 @@
 # syllabusx
 
+## 0.1.2
+
+### Patch Changes
+
+- able to go back to select courses after first cancel operation
+
 ## 0.1.1
 
 ### Patch Changes
