@@ -22,15 +22,17 @@ async function main() {
     while (!exit) {
         const search = await p.group(
             {
-                course: () =>
-                    p.select({
+                course: () => {
+                    back = false;
+                    return p.select({
                         message: "Select course",
                         initialValue: "btech",
                         options: [
                             { value: "btech", label: "B.Tech" },
                             { value: "bca", label: "BCA" },
                         ],
-                    }),
+                    });
+                },
                 semester: ({ results }) =>
                     p.select({
                         message: "Select semester",
@@ -117,7 +119,11 @@ async function main() {
                         }
                     },
                     topics: ({ results }) => {
-                        if (results.section === "theory" && results.unit) {
+                        if (
+                            results.section === "theory" &&
+                            results.unit &&
+                            typeof results.unit === "number"
+                        ) {
                             return p.multiselect({
                                 message: `Unit ${results.unit}`,
                                 options: getTheoryTopics({
