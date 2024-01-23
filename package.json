@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/syllabusx/syllabusx.git"
+    "url": "https://github.com/akshat-OwO/syllabusx.git"
   },
   "main": "index.js",
   "type": "module",
@@ -17,7 +17,7 @@
   },
   "keywords": [],
   "author": "akshat-OwO",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.11.2",
